@@ -4,7 +4,7 @@
 
 def main():  
   # Open a file for writing and create it if it doesn't exist
-  f = open("textfile.txt","w+")
+  f = open("textfile.txt","a")
   
   # Open the file for appending text to the end
   # f = open("textfile.txt","a+")
